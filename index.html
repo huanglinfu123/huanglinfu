@@ -1,170 +1,192 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
+    <title>湛江专业代理记账、湛江公司注册、湛江公司变更与注销-创业沉沉</title>
+    <meta name="description" content="湛江本地专业企业服务平台，提供湛江代理记账、湛江公司注册、湛江变更和注销等一站式企业服务，助力湛江中小企业高效发展。">
+    <meta name="keywords" content="湛江代理记账,湛江公司注册,湛江公司变更,湛江公司注销,湛江企业服务,工商代理,财税服务">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monster Survivors - Fight Endless Waves of Monsters</title>
-    <meta name="description" content="Survive endless waves of monsters in this action-packed roguelike game. Upgrade your character, collect powerful items, and face increasingly difficult challenges.">
-    <link rel="canonical" href="https://huanglinfu.xyz">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        apple: {
-                            blue: '#007AFF',
-                            red: '#FF3B30',
-                            green: '#34C759',
-                            purple: '#AF52DE',
-                            yellow: '#FFCC00',
-                            orange: '#FF9500',
-                            dark: '#1C1C1E',
-                            gray: '#8E8E93',
-                            lightgray: '#F2F2F7'
-                        }
-                    }
-                }
-            }
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: -apple-system, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f4f7f6;
         }
-    </script>
-    <style type="text/css">
-        @media (max-width: 640px) {
-            .game-container {
-                height: 70vh;
-            }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .service-card {
+            transition: all 0.3s ease;
+            background: linear-gradient(145deg, #ffffff, #f0f5f4);
+            box-shadow: 10px 10px 20px #d1d9d7, -10px -10px 20px #ffffff;
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 15px 15px 25px #d1d9d7, -15px -15px 25px #ffffff;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -20px;
+            top: 0;
+            width: 12px;
+            height: 12px;
+            background-color: #4299e1;
+            border-radius: 50%;
         }
     </style>
 </head>
-<body class="bg-apple-lightgray text-apple-dark">
-    <header class="bg-apple-blue text-white p-4 md:p-6 shadow-md">
-        <div class="container mx-auto">
-            <div class="flex flex-col md:flex-row justify-between items-center">
-                <div class="text-center md:text-left mb-4 md:mb-0">
-                    <h1 class="text-3xl md:text-4xl font-bold">Monster Survivors</h1>
-                    <p class="text-lg mt-2">Survive and fight against endless waves of monsters!</p>
-                </div>
-                <nav>
-                    <ul class="flex space-x-4">
-                        <li><a href="#game" class="hover:text-apple-yellow transition-colors">Play Now</a></li>
-                        <li><a href="#about" class="hover:text-apple-yellow transition-colors">About</a></li>
-                        <li><a href="#features" class="hover:text-apple-yellow transition-colors">Features</a></li>
-                        <li><a href="#controls" class="hover:text-apple-yellow transition-colors">Controls</a></li>
-                    </ul>
-                </nav>
+<body class="antialiased">
+    <header class="sticky top-0 z-50 gradient-bg text-white py-4 shadow-lg">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center mb-4 md:mb-0">
+                <img src="/api/placeholder/50/50" alt="湛江企业服务" class="w-12 h-12 mr-4 rounded-full">
+                <h1 class="text-2xl font-bold">湛江企业服务综合门户</h1>
             </div>
+            <nav>
+                <ul class="flex space-x-4 text-sm md:text-base">
+                    <li><a href="#services" class="hover:text-blue-200 transition">服务项目</a></li>
+                    <li><a href="#process" class="hover:text-blue-200 transition">服务流程</a></li>
+                    <li><a href="#consulting" class="hover:text-blue-200 transition">在线咨询</a></li>
+                    <li><a href="#about" class="hover:text-blue-200 transition">关于我们</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <main class="container mx-auto p-4 md:p-6">
-        <section id="game" class="my-8">
-            <h2 class="text-2xl md:text-3xl font-bold mb-4 text-apple-blue">Play Monster Survivors</h2>
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div class="game-container w-full h-screen max-h-[600px]">
-                    <iframe src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" 
-                            class="w-full h-full border-0" 
-                            allowfullscreen></iframe>
-                </div>
-            </div>
-        </section>
-
-        <section id="about" class="my-12">
-            <h2 class="text-2xl md:text-3xl font-bold mb-4 text-apple-blue">About Monster Survivors</h2>
-            <div class="bg-white rounded-lg shadow-lg p-6">
-                <p class="mb-4">Monster Survivors is an action-packed roguelike survival game where you must fight against endless waves of monsters. Each run is unique, with random enemy spawns, power-ups, and challenges to overcome.</p>
-                <p>Inspired by games like Vampire Survivors, this game combines fast-paced action with strategic character building. How long can you survive as the difficulty continuously increases?</p>
-            </div>
-        </section>
-
-        <section id="features" class="my-12">
-            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-apple-blue">Game Features</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="bg-white rounded-lg shadow-lg p-6">
-                    <h3 class="text-xl font-semibold text-apple-orange mb-3">Multiple Characters</h3>
-                    <p>Choose from various characters, each with unique starting weapons and abilities.</p>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg p-6">
-                    <h3 class="text-xl font-semibold text-apple-green mb-3">Weapon Evolution</h3>
-                    <p>Combine weapons and passive items to create powerful evolved weapons with special effects.</p>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg p-6">
-                    <h3 class="text-xl font-semibold text-apple-purple mb-3">Level Up System</h3>
-                    <p>Gain experience by defeating enemies and level up to choose new weapons or upgrades.</p>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg p-6">
-                    <h3 class="text-xl font-semibold text-apple-red mb-3">Boss Battles</h3>
-                    <p>Face off against massive boss monsters that appear at specific time intervals.</p>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg p-6">
-                    <h3 class="text-xl font-semibold text-apple-yellow mb-3">Treasure Chests</h3>
-                    <p>Find and open treasure chests to receive random items, gold, or special power-ups.</p>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg p-6">
-                    <h3 class="text-xl font-semibold text-apple-blue mb-3">Daily Challenges</h3>
-                    <p>Complete daily challenges to earn rewards and climb the global leaderboard.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="controls" class="my-12">
-            <h2 class="text-2xl md:text-3xl font-bold mb-4 text-apple-blue">Game Controls</h2>
-            <div class="bg-white rounded-lg shadow-lg p-6">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div>
-                        <h3 class="text-xl font-semibold text-apple-purple mb-3">Keyboard Controls</h3>
-                        <ul class="list-disc pl-5 space-y-2">
-                            <li><span class="font-semibold">WASD or Arrow Keys:</span> Move your character</li>
-                            <li><span class="font-semibold">Space:</span> Pause the game</li>
-                            <li><span class="font-semibold">E or Enter:</span> Select/Confirm</li>
-                            <li><span class="font-semibold">Esc:</span> Back/Menu</li>
-                        </ul>
+    <main class="container mx-auto px-4 py-8">
+        <section id="services" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">我们的核心服务</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="service-card p-6 rounded-2xl text-center">
+                    <div class="bg-blue-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 14l6-6m-5 6l-1-1m6 2l1 1m-1-1h4a2 2 0 002-2V7a2 2 0 00-2-2H8a2 2 0 00-2 2v6a2 2 0 002 2h4z"></path>
+                        </svg>
                     </div>
-                    <div>
-                        <h3 class="text-xl font-semibold text-apple-orange mb-3">Mobile Controls</h3>
-                        <ul class="list-disc pl-5 space-y-2">
-                            <li><span class="font-semibold">Virtual Joystick:</span> Appears on the left side of the screen for movement</li>
-                            <li><span class="font-semibold">Tap Buttons:</span> Menu and action buttons on the right side</li>
-                            <li><span class="font-semibold">Swipe:</span> Navigate menus and selection screens</li>
-                        </ul>
+                    <h3 class="text-xl font-semibold mb-4 text-blue-700">200元代理记账</h3>
+                    <p class="text-gray-600 mb-4">专业财务管理，精准税务筹划</p>
+                    <a href="#" class="text-blue-500 hover:text-blue-700 transition">查看详情 →</a>
+                </div>
+
+                <div class="service-card p-6 rounded-2xl text-center">
+                    <div class="bg-green-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                        </svg>
                     </div>
+                    <h3 class="text-xl font-semibold mb-4 text-green-700">0元公司注册</h3>
+                    <p class="text-gray-600 mb-4">快速安全的企业注册服务</p>
+                    <a href="#" class="text-green-500 hover:text-green-700 transition">查看详情 →</a>
+                </div>
+
+                <div class="service-card p-6 rounded-2xl text-center">
+                    <div class="bg-purple-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 01-4.03-2.782l-.9-1.7a4 4 0 00-3.725-2.025 2 2 0 00-1.364.542l-3 3a2 2 0 00-.582 1.414v3.121a2 2 0 001.106 1.789l4 2A2 2 0 009 21.236l.724-.723.977.306a5.98 5.98 0 003.26.81c1.14 0 2.266-.26 3.288-.76a2 2 0 00.365-3.243z"></path>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-purple-700">300元公司变更</h3>
+                    <p class="text-gray-600 mb-4">专业处理企业各类变更事项</p>
+                    <a href="#" class="text-purple-500 hover:text-purple-700 transition">查看详情 →</a>
+                </div>
+
+                <div class="service-card p-6 rounded-2xl text-center">
+                    <div class="bg-red-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-red-700">500元公司注销</h3>
+                    <p class="text-gray-600 mb-4">规范专业的企业注销服务</p>
+                    <a href="#" class="text-red-500 hover:text-red-700 transition">查看详情 →</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="process" class="bg-white rounded-2xl shadow-lg p-8 mb-16">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">服务流程</h2>
+            <div class="relative pl-20">
+                <div class="timeline-item relative mb-8 pb-8 border-b">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-4">初步沟通</h3>
+                    <p class="text-gray-600">客户通过电话、网站或线下渠道与我们取得联系，我们将详细了解客户需求。</p>
+                </div>
+                <div class="timeline-item relative mb-8 pb-8 border-b">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-4">方案设计</h3>
+                    <p class="text-gray-600">根据客户具体情况，我们将为客户量身定制最优的服务解决方案。</p>
+                </div>
+                <div class="timeline-item relative mb-8 pb-8 border-b">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-4">资料准备</h3>
+                    <p class="text-gray-600">指导客户准备相关材料，协助完成所有必要文件的收集与审核。</p>
+                </div>
+                <div class="timeline-item relative">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-4">办理服务</h3>
+                    <p class="text-gray-600">专业团队全程跟进，高效办理客户所需的工商、财税等服务事项。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="consulting" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">在线咨询</h2>
+            <div class="bg-white rounded-2xl shadow-lg p-8">
+                <form class="max-w-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <input type="text" placeholder="您的姓名" class="p-3 border rounded-lg focus:ring-2 focus:ring-blue-300">
+                    <input type="tel" placeholder="联系电话" class="p-3 border rounded-lg focus:ring-2 focus:ring-blue-300">
+                    <select class="p-3 border rounded-lg col-span-1 md:col-span-2 focus:ring-2 focus:ring-blue-300">
+                        <option>选择服务类型</option>
+                        <option>代理记账</option>
+                        <option>公司注册</option>
+                        <option>公司变更</option>
+                        <option>公司注销</option>
+                    </select>
+                    <textarea placeholder="咨询内容" class="p-3 border rounded-lg col-span-1 md:col-span-2 h-32 focus:ring-2 focus:ring-blue-300"></textarea>
+                    <button class="col-span-1 md:col-span-2 bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700 transition">
+                        提交咨询
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <section id="about" class="bg-white rounded-2xl shadow-lg p-8">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">关于我们</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold text-blue-700 mb-4">公司简介</h3>
+                    <p class="text-gray-600 mb-4">
+                        湛江企业服务综合门户是一家专注于为中小企业提供全方位企业服务的专业机构。我们团队由资深财税专家、工商代理专业人士组成，致力于为湛江本地企业提供高效、专业的服务。
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-blue-700 mb-4">我们的优势</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li>✓ 本地化服务，深入了解湛江企业发展环境</li>
+                        <li>✓ 专业团队，覆盖财税、工商等多个领域</li>
+                        <li>✓ 一站式服务，全程贴心指导</li>
+                        <li>✓ 高效快捷，缩短企业服务办理时间</li>
+                    </ul>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="bg-apple-dark text-white p-6">
-        <div class="container mx-auto">
-            <div class="flex flex-col md:flex-row justify-between items-center">
-                <div class="mb-4 md:mb-0">
-                    <p>&copy; 2025 Monster Survivors. All rights reserved.</p>
-                </div>
-                <div class="flex space-x-4">
-                    <a href="#" class="hover:text-apple-blue transition-colors">Privacy Policy</a>
-                    <a href="#" class="hover:text-apple-blue transition-colors">Terms of Service</a>
-                    <a href="#" class="hover:text-apple-blue transition-colors">Contact</a>
-                </div>
+    <footer class="bg-gray-800 text-white py-8 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <p>© 2024 湛江企业服务综合门户 | 地址：广东省湛江市</p>
+            <p class="mt-2 text-sm text-gray-400">
+                服务热线：400-850-0074 | 咨询邮箱：service@zhanjiang-enterprise.com
+            </p>
+            <div class="mt-4 flex justify-center space-x-4">
+                <a href="#" class="text-gray-300 hover:text-white">隐私政策</a>
+                <a href="#" class="text-gray-300 hover:text-white">服务协议</a>
+                <a href="#" class="text-gray-300 hover:text-white">网站地图</a>
             </div>
         </div>
     </footer>
 
-    <!-- JSON-LD structured data for SEO -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "VideoGame",
-        "name": "Monster Survivors",
-        "description": "Survive endless waves of monsters in this action-packed roguelike game. Upgrade your character, collect powerful items, and face increasingly difficult challenges.",
-        "genre": ["Action", "Roguelike", "Survival"],
-        "playMode": "SinglePlayer",
-        "applicationCategory": "Game",
-        "url": "https://huanglinfu.xyz",
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock"
-        }
-    }
+    <script>
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('感谢您的咨询，我们将尽快联系湛江本地企业服务顾问！');
+        });
     </script>
 </body>
 </html>
